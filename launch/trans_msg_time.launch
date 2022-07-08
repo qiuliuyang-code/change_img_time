@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="trans_msg_time" type="trans_msg_time_node" name="trans_msg_time_node"  output="screen">
+    <param name = "bag_path" type="string" value = "/home/qly/project/img_time_minus/szut_indoor_2021-09-06-08-45-13.bag"/>
+    <param name = "img_topic" value = "/camera/image_color"/>
+    </node>
+</launch>
